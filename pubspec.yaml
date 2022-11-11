@@ -1,0 +1,40 @@
+name: trademaster
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  cupertino_icons: ^1.0.2
+  http: ^0.13.5
+  rxdart: ^0.20.0
+  dio: ^4.0.6
+  flutter_typeahead: ^4.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img1.jpg
+    - assets/img2.jpg
+    - assets/img3.jpg 
+    - assets/img4.jpg
+    - assets/img5.jpg
+    - assets/img6.jpg
+    - assets/img7.jpg
+    - assets/img8.jpeg
+    - assets/img9.jpg
+    - assets/img10.jpg
+    - assets/logo.png 
